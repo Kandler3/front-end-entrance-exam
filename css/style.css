@@ -104,6 +104,8 @@ small {
 .nameBox {
   /* nameBox */
   box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
 
   /* Auto layout */
   display: flex;
@@ -156,6 +158,25 @@ small {
 
   background: #f0f0f0;
   border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+}
+
+.ripple {
+  position: absolute;
+  border-radius: 50%;
+  transform: scale(0);
+  animation: ripple-animation 0.6s linear;
+  background-color: rgba(40, 217, 121, 0.3);
+  pointer-events: none;
+  z-index: 10;
+}
+
+@keyframes ripple-animation {
+  to {
+    transform: scale(4);
+    opacity: 0;
+  }
 }
 
 .languagesBoxTitle {

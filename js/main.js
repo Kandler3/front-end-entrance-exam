@@ -56,3 +56,28 @@ window.addEventListener('DOMContentLoaded', () => {
     btn.style.display = '';
   });
 });
+
+window.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.box, .nameBox').forEach(box => {
+    box.addEventListener('click', function (e) {
+      // Удаляем старый ripple, если есть
+      const oldRipple = box.querySelector('.ripple');
+      if (oldRipple) oldRipple.remove();
+      // Координаты клика относительно box
+      const rect = box.getBoundingClientRect();
+      const size = Math.max(rect.width, rect.height);
+      const x = e.clientX - rect.left - size / 2;
+      const y = e.clientY - rect.top - size / 2;
+      // Создаём ripple
+      const ripple = document.createElement('span');
+      ripple.className = 'ripple';
+      ripple.style.width = ripple.style.height = size + 'px';
+      ripple.style.left = x + 'px';
+      ripple.style.top = y + 'px';
+      box.appendChild(ripple);
+      ripple.addEventListener('animationend', () => {
+        ripple.remove();
+      });
+    });
+  });
+});
