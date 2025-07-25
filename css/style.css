@@ -1,5 +1,5 @@
 :root {
-  --accent-color: #28D979;
+  --accent-color: #28d979;
 }
 
 html {
@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   margin: 0;
   padding: 0;
 }
@@ -55,23 +55,21 @@ small {
 .bentoFlexBox {
   /* bentoFlexbox */
 
-/* Auto layout */
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: center;
-align-items: center;
-align-content: center;
-padding: 0px;
-gap: 20px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 0px;
+  gap: 20px;
 
-position: absolute;
-width: 555px;
-height: 812px;
-left: 20px;
-top: calc(50% - 812px/2);
-
-
+  position: absolute;
+  width: 555px;
+  height: 812px;
+  left: 20px;
+  top: calc(50% - 812px / 2);
 }
 
 .profileImg {
@@ -85,348 +83,333 @@ top: calc(50% - 812px/2);
   /* nameBox */
   box-sizing: border-box;
 
-/* Auto layout */
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-align-items: flex-start;
-padding: 12px;
-gap: 16px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 12px;
+  gap: 16px;
 
-width: 124px;
-height: 124px;
+  width: 124px;
+  height: 124px;
 
-background: #F0F0F0;
-border-radius: 12px;
-
+  background: #f0f0f0;
+  border-radius: 12px;
 }
 
 .yourInfo {
   /* yourInfo */
   box-sizing: border-box;
 
-/* Auto layout */
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: flex-start;
-padding: 0px;
-gap: 6px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 6px;
 
-margin: 0 auto;
-width: 100px;
-height: 39px;
+  margin: 0 auto;
+  width: 100px;
+  height: 39px;
 
-
-/* Inside auto layout */
-flex: none;
-order: 1;
-align-self: stretch;
-flex-grow: 0;
-
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
 }
 
 .box {
   /* lenguagesBox */
   box-sizing: border-box;
 
-/* Auto layout */
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 12px;
-gap: 16px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 12px;
+  gap: 16px;
 
-background: #F0F0F0;
-border-radius: 12px;
+  background: #f0f0f0;
+  border-radius: 12px;
 }
 
 .languagesBoxTitle {
   /* title */
   box-sizing: border-box;
 
-/* Auto layout */
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 0px;
-gap: 25px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 25px;
 
-width: 79px;
-height: 21px;
+  width: 79px;
+  height: 21px;
 
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .listLanguages {
   /* listLenguages */
   box-sizing: border-box;
 
-/* Auto layout */
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 0px;
-gap: 17px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 17px;
 
-width: 243px;
-height: 53px;
+  width: 243px;
+  height: 53px;
 
-
-/* Inside auto layout */
-flex: none;
-order: 1;
-align-self: stretch;
-flex-grow: 0;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
 }
 
 .nameLanguage {
   /* nameLenguage */
   box-sizing: border-box;
 
-/* Auto layout */
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 10px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
 
-width: 58px;
-height: 50px;
+  width: 58px;
+  height: 50px;
 
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .levelLanguage {
   /* levelLenguage */
 
-/* Auto layout */
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 10px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
 
-width: 168px;
-height: 53px;
+  width: 168px;
+  height: 53px;
 
-
-/* Inside auto layout */
-flex: none;
-order: 1;
-flex-grow: 1;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 1;
 }
 
 .languageLevelBar {
   width: 100%;
   height: 11px;
-  background:  var(--accent-color);
+  background: var(--accent-color);
   border-radius: 3px;
 }
 
 .experienceTitle {
   /* title */
 
-/* Auto layout */
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 0px;
-gap: 25px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 25px;
 
-width: 77px;
-height: 21px;
+  width: 77px;
+  height: 21px;
 
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .jobList {
   /* jobList */
 
-/* Auto layout */
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 10px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
 
-width: auto;
-height: 300px;
+  width: auto;
+  height: 300px;
 
-
-/* Inside auto layout */
-flex: none;
-order: 1;
-align-self: stretch;
-flex-grow: 0;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
 }
 
 .jobCard {
   /* job-2 */
   box-sizing: border-box;
 
-/* Auto layout */
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: flex-start;
-padding: 8px;
-gap: 8px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 8px;
+  gap: 8px;
 
-width: 387px;
-height: fit-content;
+  width: 387px;
+  height: fit-content;
 
-background: #FFFFFF;
-border-radius: 10px;
+  background: #ffffff;
+  border-radius: 10px;
 
-/* Inside auto layout */
-flex: none;
-order: 1;
-align-self: stretch;
-flex-grow: 0;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
 }
 
 .jobCard.mostRecent {
-  background: #28D979;
-  color: #FFFFFF;
+  background: #28d979;
+  color: #ffffff;
 }
 
 .topBar {
   /* topBar */
 
-/* Auto layout */
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-padding: 0px;
-gap: 2px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 2px;
 
-width: 371px;
-height: fit-content;
+  width: 371px;
+  height: fit-content;
 
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 0;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
 }
 
 .jobTag {
   /* tag */
-  box-sizing:border-box;
+  box-sizing: border-box;
 
-/* Auto layout */
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 2px 0px;
-gap: 10px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 0px;
+  gap: 10px;
 
-margin: 0;
-width: 61px;
-height: auto;
+  margin: 0;
+  width: 61px;
+  height: auto;
 
-background: rgba(126, 115, 18, 0.4);
-border-radius: 59px;
+  background: rgba(126, 115, 18, 0.4);
+  border-radius: 59px;
 
-
-font-weight: 500;
-color: #DDF163; 
-line-height: 155%
+  font-weight: 500;
+  color: #ddf163;
+  line-height: 155%;
 }
 
 .jobCardContent {
   /* content */
 
-/* Auto layout */
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 0px;
-gap: 8px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
 
-width: 371px;
-height: fit-content;
+  width: 371px;
+  height: fit-content;
 
-
-/* Inside auto layout */
-flex: none;
-order: 1;
-align-self: stretch;
-flex-grow: 0;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
 }
 
 .jobInfo {
   /* jobInfo */
 
-/* Auto layout */
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: flex-start;
-padding: 0px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
 
-width: 124px;
-height: fit-content;
+  width: 124px;
+  height: fit-content;
 
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .jobAbout {
   /* aboutJob */
 
-/* Auto layout */
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-align-items: center;
-align-content: flex-start;
-padding: 0px;
-gap: 0px 6px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: flex-start;
+  padding: 0px;
+  gap: 0px 6px;
 
-width: 124px;
-height: fit-content;
+  width: 124px;
+  height: fit-content;
 
-
-/* Inside auto layout */
-flex: none;
-order: 1;
-align-self: stretch;
-flex-grow: 0;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
 }
 
 .jobPointsContainer {
   /* Auto layout */
-display: flex;
-flex-direction: column;
-align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 
-flex-grow: 1;
-flex-basis: 0;
-min-width: 0;
-height: fit-content;
+  flex-grow: 1;
+  flex-basis: 0;
+  min-width: 0;
+  height: fit-content;
 }
 
 .jobPoints {
@@ -450,151 +433,146 @@ height: fit-content;
   flex-direction: column;
   gap: 0px;
   align-items: center;
-
 }
 
 .toolsCardTag {
-/* tag */
+  /* tag */
 
-box-sizing: border-box;
+  box-sizing: border-box;
 
-/* Auto layout */
-display: flex;
-flex-direction: row;
-align-items: center;
-padding: 2px 6px;
-gap: 10px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 2px 6px;
+  gap: 10px;
 
-width: fit-content;
-height: 11px;
+  width: fit-content;
+  height: 11px;
 
-margin-bottom: -6px;
+  margin-bottom: -6px;
 
-background: #000000;
-color: #FFFFFF;
-border-radius: 59px;
-z-index: 1;
+  background: #000000;
+  color: #ffffff;
+  border-radius: 59px;
+  z-index: 1;
 
-font-size: 0.625rem;
-font-weight: 500;
-
+  font-size: 0.625rem;
+  font-weight: 500;
 }
 
 .toolsCardContent {
-/* content */
+  /* content */
 
-/* Auto layout */
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: center;
-align-items: center;
-align-content: center;
-padding: 16px 4px;
-gap: 16px;
-isolation: isolate;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 16px 4px;
+  gap: 16px;
+  isolation: isolate;
 
-width: auto;
-height: fit-content;
+  width: auto;
+  height: fit-content;
 
-background: #FFFFFF;
-border-radius: 6px;
+  background: #ffffff;
+  border-radius: 6px;
 
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-z-index: 0;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  z-index: 0;
 }
 
 .educationBoxContent {
   /* content */
 
-/* Auto layout */
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-align-items: flex-start;
-padding: 0px;
-gap: 16px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
 
-width: 248px;
-height: 228px;
+  width: 248px;
+  height: 228px;
 
-
-/* Inside auto layout */
-flex: none;
-order: 1;
-flex-grow: 0;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 
 .educationCard {
   /* lastEducation */
   box-sizing: border-box;
 
-/* Auto layout */
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: flex-start;
-padding: 8px;
-gap: 8px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 8px;
+  gap: 8px;
 
-width: 116px;
-height: fit-content;
+  width: 116px;
+  height: fit-content;
 
-background: #FFFFFF;
-border-radius: 10px;
+  background: #ffffff;
+  border-radius: 10px;
 
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 
---education-tag-color: var(--accent-color);
+  --education-tag-color: var(--accent-color);
 }
 
 .educationCard.mostRecent {
   background: var(--accent-color);
-  color: #FFFFFF;
-  --education-tag-color: #FFFFFF;
+  color: #ffffff;
+  --education-tag-color: #ffffff;
 }
 
 .educationCardTop {
   /* topBar */
 
-/* Auto layout */
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-padding: 0px;
-gap: 2px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 2px;
 
-width: auto;
-height: fit-content;
+  width: auto;
+  height: fit-content;
 
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 0;
-
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
 }
 
 .educationCardContent {
   /* content */
 
-/* Auto layout */
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: flex-start;
-padding: 0px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
 
-width: auto;
-height: fit-content;
+  width: auto;
+  height: fit-content;
 }
 
 .educationHeader {
@@ -602,7 +580,7 @@ height: fit-content;
 }
 
 .educationTag {
-  color: var(--education-tag-color)
+  color: var(--education-tag-color);
 }
 
 .extraBox {
@@ -614,18 +592,17 @@ height: fit-content;
 .interestsBoxContent {
   /* content */
 
-/* Auto layout */
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-align-items: flex-start;
-align-content: flex-start;
-padding: 0px;
-gap: 8px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+  padding: 0px;
+  gap: 8px;
 
-width: 100%;
-height: fit-content;
-
+  width: 100%;
+  height: fit-content;
 }
 
 .interestTag {
@@ -633,18 +610,18 @@ height: fit-content;
 
   box-sizing: border-box;
 
-/* Auto layout */
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 4px 10px;
-gap: 10px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 4px 10px;
+  gap: 10px;
 
-width: fit-content;
-height: 23px;
+  width: fit-content;
+  height: 23px;
 
-background: #FFFFFF;
-border-radius: 40px;
+  background: #ffffff;
+  border-radius: 40px;
 
-font-size: 1.25em;
+  font-size: 1.25em;
 }

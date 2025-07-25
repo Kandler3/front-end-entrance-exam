@@ -30,10 +30,8 @@ function saveEditable(el, idx) {
   localStorage.setItem(key, el.innerHTML);
 }
 
-// Восстанавливаем при загрузке
 window.addEventListener('DOMContentLoaded', restoreAllEditable);
 
-// Сохраняем только изменённый элемент
 window.addEventListener('DOMContentLoaded', () => {
   getEditableElements().forEach((el, idx) => {
     el.addEventListener('input', () => saveEditable(el, idx));
