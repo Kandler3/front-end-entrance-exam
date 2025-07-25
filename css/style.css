@@ -347,10 +347,10 @@ height: auto;
 background: rgba(126, 115, 18, 0.4);
 border-radius: 59px;
 
-/* Inside auto layout */
-flex: none;
-order: 1;
-flex-grow: 0;
+
+font-weight: 500;
+color: #DDF163; 
+line-height: 155%
 }
 
 .jobCardContent {
@@ -474,6 +474,9 @@ background: #000000;
 color: #FFFFFF;
 border-radius: 59px;
 z-index: 1;
+
+font-size: 0.625rem;
+font-weight: 500;
 
 }
 

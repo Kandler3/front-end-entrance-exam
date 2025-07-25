@@ -22,3 +22,5 @@ document.querySelector('#app').innerHTML = `
 `
 
 setupCounter(document.querySelector('#counter'))
+
+// TODO: Реализовать сохранение изменений редактируемых полей в localStorage и их восстановление при загрузке страницы
