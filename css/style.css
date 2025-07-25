@@ -430,7 +430,7 @@ small {
 
 .toolsCard {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   gap: 0px;
   align-items: center;
 }
@@ -624,4 +624,19 @@ small {
   border-radius: 40px;
 
   font-size: 1.25em;
+}
+
+.downloadButton {
+  background-color: var(--accent-color);
+  width: 100px;
+  height: 30px;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.downloadButton:hover {
+  cursor: pointer;
 }

@@ -37,3 +37,22 @@ window.addEventListener('DOMContentLoaded', () => {
     el.addEventListener('input', () => saveEditable(el, idx));
   });
 });
+
+window.addEventListener('DOMContentLoaded', () => {
+  const btn = document.getElementById('download-pdf-btn');
+  if (!btn) return;
+  btn.addEventListener('click', async () => {
+    btn.style.display = 'none';
+    const element = document.getElementById('cv-content');
+    const canvas = await html2canvas(element, { width: 595, height: 900, scale: 2 });
+    const imgData = canvas.toDataURL('image/jpeg', 1.0);
+    const pdf = new window.jspdf.jsPDF({
+      orientation: 'portrait',
+      unit: 'px',
+      format: [canvas.width, canvas.height]
+    });
+    pdf.addImage(imgData, 'JPEG', 0, 0, canvas.width, canvas.height);
+    pdf.save('resume.pdf');
+    btn.style.display = '';
+  });
+});
