@@ -8,13 +8,6 @@ function getElementKey(el, idx) {
   return 'edit_' + idx;
 }
 
-function saveAllEditable() {
-  getEditableElements().forEach((el, idx) => {
-    const key = getElementKey(el, idx);
-    localStorage.setItem(key, el.innerHTML);
-  });
-}
-
 function restoreAllEditable() {
   getEditableElements().forEach((el, idx) => {
     const key = getElementKey(el, idx);
@@ -60,15 +53,12 @@ window.addEventListener('DOMContentLoaded', () => {
 window.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('.box, .nameBox').forEach(box => {
     box.addEventListener('click', function (e) {
-      // Удаляем старый ripple, если есть
       const oldRipple = box.querySelector('.ripple');
       if (oldRipple) oldRipple.remove();
-      // Координаты клика относительно box
       const rect = box.getBoundingClientRect();
       const size = Math.max(rect.width, rect.height);
       const x = e.clientX - rect.left - size / 2;
       const y = e.clientY - rect.top - size / 2;
-      // Создаём ripple
       const ripple = document.createElement('span');
       ripple.className = 'ripple';
       ripple.style.width = ripple.style.height = size + 'px';
