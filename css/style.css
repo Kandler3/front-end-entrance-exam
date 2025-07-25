@@ -9,7 +9,10 @@ html {
 body {
   font-family: "Poppins";
   margin: 0;
-  padding: 0;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 h1 {
@@ -65,11 +68,30 @@ small {
   padding: 0px;
   gap: 20px;
 
-  position: absolute;
+  position: relative;
   width: 555px;
   height: 812px;
-  left: 20px;
-  top: calc(50% - 812px / 2);
+}
+
+@media (max-width: 600px) {
+  .bentoFlexBox {
+    transform: scale(75%);
+    transform-origin: top left;
+  }
+}
+
+@media (max-width: 450px) {
+  .bentoFlexBox {
+    transform: scale(50%);
+    transform-origin: top left;
+  }
+}
+
+@media (max-width: 300px) {
+  .bentoFlexBox {
+    transform: scale(25%);
+    transform-origin: top left;
+  }
 }
 
 .profileImg {
